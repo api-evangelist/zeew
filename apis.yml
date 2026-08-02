@@ -1,7 +1,14 @@
 aid: zeew
 name: Zeew
-description: Zeew is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zeew is a European (Estonia-based) white-label, no-code delivery-platform
+  provider that lets businesses launch on-demand delivery marketplaces and apps in
+  days. Its platform powers food, grocery, pharmacy, retail, and home-services delivery
+  with connected customer, vendor, and driver apps plus an admin dashboard, sold as
+  SaaS subscriptions or purchasable source code under a reseller / white-labeling program.
+  Zeew runs a backend API host (api.zeew.eu) that serves its white-label apps, but
+  as of mid-2026 publishes no public, self-serve API reference, OpenAPI specification,
+  developer portal, or webhook catalog; integration is delivered through the managed
+  platform. Surfaced as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/zeew/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://zeew.eu/wp-content/uploads/2020/02/cropped-custom-–-5-2-1-192x192.png
 tags:
 - Company
+- Delivery
+- On-Demand
+- Food Delivery
+- Logistics
+- White-Label
+- SaaS
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zeew-domain-security.yml
+- type: LLMsTxt
+  url: llms/zeew-llms.txt
 - type: Website
   url: https://zeew.eu
+- type: Pricing
+  url: https://zeew.eu/pricing-and-delivery-packages/
+- type: Blog
+  url: https://zeew.eu/blog/
+- type: SignUp
+  url: https://accounts.zeew.eu/signup
+- type: Login
+  url: https://accounts.zeew.eu/
+- type: Documentation
+  url: https://zeew.eu/ZeewFeatureListDocumentation.pdf
+- type: Support
+  url: https://zeew.eu/book-demo/
+- type: TermsOfService
+  url: https://zeew.eu/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://zeew.eu/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

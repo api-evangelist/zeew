@@ -1,0 +1,26 @@
+# Zeew
+
+> Zeew is a European (Estonia-based) white-label, no-code delivery-platform provider. It lets businesses launch on-demand delivery marketplaces and apps for food, grocery, pharmacy, retail, and home services, with connected customer, vendor, and driver apps plus an admin dashboard, sold as SaaS subscriptions or purchasable source code.
+
+## About
+- Product: white-label / no-code multi-vendor delivery marketplace platform.
+- Verticals: food delivery, grocery, pharmacy, retail, home services.
+- Apps: customer app, vendor/merchant app, driver app, admin dashboard.
+- Business model: SaaS subscription plans plus source-code purchase / reseller (white-labeling) program.
+- Backed by: 500 Global (500-global).
+
+## Links
+- Website: https://zeew.eu
+- Pricing: https://zeew.eu/pricing-and-delivery-packages/
+- Blog: https://zeew.eu/blog/
+- Sign up (free trial): https://accounts.zeew.eu/signup
+- Login / dashboard: https://accounts.zeew.eu/
+- Book a demo: https://zeew.eu/book-demo/
+- Feature list (PDF): https://zeew.eu/ZeewFeatureListDocumentation.pdf
+- Terms of Use: https://zeew.eu/terms-and-conditions/
+- Privacy Policy: https://zeew.eu/privacy-policy/
+
+## API
+- Zeew operates a backend API host at https://api.zeew.eu that serves its white-label apps; the root returns a JSON envelope ({"code":200,"message":"Nothing here.","data":{}}) and requires authentication for real operations.
+- As of 2026-07, Zeew publishes NO public, self-serve API reference, OpenAPI/Swagger specification, developer portal, or webhook catalog. No /.well-known/ discovery documents, /llms.txt, or public SDKs were found.
+- Integration is delivered through the managed platform rather than a documented public API.
